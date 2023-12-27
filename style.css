@@ -74,3 +74,18 @@ h1 {
 .hide {
     display: none;
 }
+
+.copy-button {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    gap: 10px;
+    cursor: pointer;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.copy-button:hover {
+    background-color: #c0eb6a;
+}
