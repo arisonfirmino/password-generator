@@ -89,3 +89,10 @@ h1 {
 .copy-button:hover {
     background-color: #c0eb6a;
 }
+
+@media (max-width: 600px) {
+    .generator-container,
+    .password-container {
+        width: 350px;
+    }
+}
